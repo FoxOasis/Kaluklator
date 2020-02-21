@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="338.0" prefWidth="246.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <TextField fx:id="display" editable="false" />
+      <AnchorPane prefHeight="252.0" prefWidth="250.0" GridPane.rowIndex="1">
+         <children>
+            <Button fx:id="jeden" layoutX="14.0" layoutY="151.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="1" />
+            <Button fx:id="dwa" layoutX="61.0" layoutY="151.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="2" />
+            <Button fx:id="trzy" layoutX="110.0" layoutY="151.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="3" />
+            <Button fx:id="cztery" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="4" />
+            <Button fx:id="piec" layoutX="61.0" layoutY="100.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="5" />
+            <Button fx:id="szesc" layoutX="110.0" layoutY="100.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="6" />
+            <Button fx:id="siedem" layoutX="14.0" layoutY="50.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="7" />
+            <Button fx:id="osiem" layoutX="61.0" layoutY="50.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="8" />
+            <Button fx:id="dziewiec" layoutX="110.0" layoutY="50.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="9" />
+            <Button fx:id="rownaSIe" layoutX="165.0" layoutY="151.0" mnemonicParsing="false" onAction="#oblicz" prefHeight="35.0" prefWidth="35.0" text="=" />
+            <Button fx:id="plus" layoutX="165.0" layoutY="100.0" mnemonicParsing="false" onAction="#dzialanie" prefHeight="35.0" prefWidth="35.0" text="+" />
+            <Button fx:id="minus" layoutX="165.0" layoutY="50.0" mnemonicParsing="false" onAction="#dzialanie" prefHeight="35.0" prefWidth="35.0" text="-" />
+            <Button fx:id="mnoz" layoutX="165.0" layoutY="7.0" mnemonicParsing="false" onAction="#dzialanie" prefHeight="35.0" prefWidth="35.0" text="*" />
+            <Button fx:id="dziel" layoutX="110.0" layoutY="7.0" mnemonicParsing="false" onAction="#dzialanie" prefHeight="35.0" prefWidth="35.0" text="/" />
+            <Button fx:id="kasuj" layoutX="14.0" layoutY="7.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="CE" />
+            <Button fx:id="zero" layoutX="14.0" layoutY="195.0" mnemonicParsing="false" onAction="#cyfry" prefHeight="35.0" prefWidth="35.0" text="0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
